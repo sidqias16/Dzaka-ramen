@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Sashimi Moriawase">
+  <rect width="400" height="300" fill="#e8eef5"/>
+  <ellipse cx="200" cy="262" rx="170" ry="15" fill="#00000018"/>
+  <rect x="30" y="80" width="340" height="170" rx="18" fill="#2c2c34"/>
+  <rect x="38" y="88" width="324" height="154" rx="12" fill="#3a3a44"/>
+  <!-- daikon -->
+  <g stroke="#f8f8f4" stroke-width="3" stroke-linecap="round" opacity=".9"><path d="M60 190c20-30 40-40 60-60M70 205c25-30 45-45 70-70M85 215c20-20 40-35 55-52M100 222c15-15 30-25 45-40"/></g>
+  <g fill="#6fa84a"><path d="M70 150l14-30 8 32z"/><path d="M90 150l22-24-2 32z"/></g>
+  <!-- salmon slices -->
+  <g>
+    <rect x="140" y="120" width="40" height="86" rx="10" fill="#f47c48" transform="rotate(-8 160 160)"/>
+    <rect x="168" y="118" width="40" height="88" rx="10" fill="#f68a58" transform="rotate(-4 188 160)"/>
+    <rect x="196" y="118" width="40" height="88" rx="10" fill="#f47c48"/>
+    <g stroke="#fdc7a8" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"><path d="M152 132v60M180 130v62M208 130v62"/></g>
+  </g>
+  <!-- tuna slices -->
+  <g>
+    <rect x="250" y="130" width="36" height="76" rx="9" fill="#b3232f" transform="rotate(4 268 168)"/>
+    <rect x="276" y="132" width="36" height="76" rx="9" fill="#c42f3b" transform="rotate(8 294 170)"/>
+    <rect x="302" y="136" width="34" height="72" rx="9" fill="#b3232f" transform="rotate(12 319 172)"/>
+  </g>
+  <!-- wasabi, lemon -->
+  <ellipse cx="238" cy="224" rx="18" ry="10" fill="#8bc34a"/>
+  <circle cx="70" cy="110" r="20" fill="#fde047"/><circle cx="70" cy="110" r="15" fill="#fef08a"/>
+  <g stroke="#fde047" stroke-width="2"><path d="M70 96v28M56 110h28M60 100l20 20M80 100l-20 20"/></g>
+</svg>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zushioda Cirebon – Sushi, Ramen & Japanese Food</title>
+  <meta name="description" content="Zushioda Kesambi Cirebon: sushi, sashimi, ramen, Tori Katsu Curry dan minuman favorit dengan suasana nyaman.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="nav" id="top">
+  <a href="#top" class="brand"><span class="brand-mark">寿</span> Zushioda.Hub</a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#menu">Menu</a>
+    <a href="#kuis">Kuis</a>
+    <a href="#game">Game</a>
+    <a href="#ulasan">Ulasan</a>
+    <a href="#info">Info</a>
+  </nav>
+  <div class="nav-actions">
+    <button class="cart-btn" id="cartOpen" aria-label="Buka keranjang">🛒 <span id="cartCount">0</span></button>
+    <button class="burger" id="burger" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<!-- LANDING / HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <p class="eyebrow">Japanese Restaurant · Kesambi, Cirebon</p>
+    <h1>Sushi segar,<br>ramen hangat,<br><span>suasana nyaman.</span></h1>
+    <p class="lead">Dari Crunchy Spicy Salmon sampai Miso Ramen dan Tori Katsu Curry — nikmati menu Jepang favorit bersama keluarga dan teman.</p>
+    <div class="hero-cta">
+      <a href="#menu" class="btn btn-primary">Lihat Menu</a>
+      <a href="#game" class="btn btn-ghost">Main Game 🎮</a>
+    </div>
+    <p class="open-badge" id="openBadge">Memeriksa jam buka…</p>
+  </div>
+  <div class="hero-art">
+    <div class="hero-circle"></div>
+    <img class="hero-img main" src="miso-ramen.svg" alt="Miso Ramen Zushioda">
+    <img class="hero-img f1" src="crunchy-spicy-salmon.svg" alt="Crunchy Spicy Salmon Roll">
+    <img class="hero-img f2" src="lemon-tea.svg" alt="Lemon Tea">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <div class="about-card"><h3>🍣 Sushi & Sashimi</h3><p>Roll, nigiri dan sashimi dengan variasi menu yang beragam.</p></div>
+  <div class="about-card"><h3>🍜 Ramen & Rice</h3><p>Miso Ramen dan Tori Katsu Curry yang mengenyangkan.</p></div>
+  <div class="about-card"><h3>🥤 Minuman</h3><p>Lemon Tea segar dan Kopi Laki Bini untuk menemani makan.</p></div>
+  <div class="about-card"><h3>🏠 Tempat Nyaman</h3><p>Desain interior yang apik, cocok untuk keluarga dan nongkrong.</p></div>
+</section>
+
+<!-- FITUR 1 & 2: MENU + KERANJANG -->
+<section class="section" id="menu">
+  <div class="section-head">
+    <span class="tag">Fitur 1 &amp; 2</span>
+    <h2>Menu Zushioda</h2>
+    <p>Cari, filter, lalu tambahkan ke keranjang.</p>
+  </div>
+  <div class="toolbar">
+    <input type="search" id="search" placeholder="Cari menu… (mis. salmon)">
+    <div class="filters" id="filters">
+      <button class="chip active" data-filter="all">Semua</button>
+      <button class="chip" data-filter="sushi">Sushi</button>
+      <button class="chip" data-filter="ramen">Ramen & Rice</button>
+      <button class="chip" data-filter="minuman">Minuman</button>
+    </div>
+  </div>
+  <div class="menu-grid" id="menuGrid"></div>
+  <p class="note">* Harga pada website ini hanya contoh/ilustrasi. Harga asli dapat berbeda di restoran.</p>
+</section>
+
+<!-- FITUR 3: KUIS -->
+<section class="section alt" id="kuis">
+  <div class="section-head">
+    <span class="tag">Fitur 3</span>
+    <h2>Kuis: Menu Apa yang Cocok Untukmu?</h2>
+    <p>Jawab 3 pertanyaan, kami carikan menu yang pas.</p>
+  </div>
+  <div class="quiz" id="quiz">
+    <div class="quiz-progress"><div id="quizBar"></div></div>
+    <h3 id="quizQ"></h3>
+    <div class="quiz-options" id="quizOpts"></div>
+    <div class="quiz-result" id="quizResult" hidden></div>
+  </div>
+</section>
+
+<!-- FITUR 4: GAME -->
+<section class="section" id="game">
+  <div class="section-head">
+    <span class="tag">Fitur 4</span>
+    <h2>Game: Sushi Catcher 🍣</h2>
+    <p>Geser piring (mouse / sentuh / tombol ← →) untuk menangkap sushi. Hindari wasabi hijau!</p>
+  </div>
+  <div class="game-wrap">
+    <div class="game-hud">
+      <span>Skor: <b id="gScore">0</b></span>
+      <span>Nyawa: <b id="gLives">❤❤❤</b></span>
+      <span>Rekor: <b id="gBest">0</b></span>
+    </div>
+    <div class="canvas-box">
+      <canvas id="gameCanvas" width="400" height="520"></canvas>
+      <div class="game-overlay" id="gameOverlay">
+        <h3 id="gameTitle">Siap main?</h3>
+        <p id="gameMsg">Tangkap sushi sebanyak mungkin!</p>
+        <button class="btn btn-primary" id="gameStart">Mulai</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FITUR 5: ULASAN -->
+<section class="section alt" id="ulasan">
+  <div class="section-head">
+    <span class="tag">Fitur 5</span>
+    <h2>Kata Pengunjung</h2>
+    <p>Geser ulasan dan beri rating favoritmu.</p>
+  </div>
+  <div class="slider">
+    <button class="arrow" id="prevT" aria-label="Sebelumnya">‹</button>
+    <div class="slide" id="slide" aria-live="polite"></div>
+    <button class="arrow" id="nextT" aria-label="Berikutnya">›</button>
+  </div>
+  <div class="dots" id="dots"></div>
+  <div class="rate">
+    <p>Beri rating untuk Zushioda:</p>
+    <div class="stars" id="stars"></div>
+    <p class="rate-msg" id="rateMsg">Belum ada rating.</p>
+  </div>
+</section>
+
+<!-- INFO -->
+<section class="section" id="info">
+  <div class="section-head">
+    <h2>Kunjungi Kami</h2>
+  </div>
+  <div class="info-grid">
+    <div class="info-card"><h3>📍 Lokasi</h3><p>Zushioda Kesambi<br>Cirebon, Jawa Barat</p></div>
+    <div class="info-card">
+      <h3>🕙 Jam Buka</h3>
+      <p>Setiap hari<br><b>10.00 – 22.00</b></p>
+    </div>
+    <div class="info-card"><h3>✨ Fasilitas</h3><p>Wi-Fi gratis · Tempat duduk outdoor · Parkir · Take-away · Reservasi</p></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Zushioda Cirebon · Website penggemar/demo, bukan situs resmi.</p>
+</footer>
+
+<!-- KERANJANG DRAWER -->
+<div class="drawer-bg" id="drawerBg"></div>
+<aside class="drawer" id="drawer" aria-label="Keranjang">
+  <div class="drawer-head"><h3>Pesananmu</h3><button id="cartClose" aria-label="Tutup">✕</button></div>
+  <div class="drawer-body" id="cartItems"></div>
+  <div class="drawer-foot">
+    <div class="total"><span>Total</span><b id="cartTotal">Rp0</b></div>
+    <button class="btn btn-primary full" id="copyOrder">Salin Pesanan</button>
+    <button class="btn btn-ghost full" id="clearCart">Kosongkan</button>
+  </div>
+</aside>
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

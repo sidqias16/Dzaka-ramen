@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Kopi Laki Bini">
+  <rect width="400" height="300" fill="#ecdcc8"/>
+  <ellipse cx="200" cy="268" rx="90" ry="12" fill="#00000025"/>
+  <!-- glass -->
+  <path d="M130 40h140l-14 215c-1 10-10 16-20 16h-72c-10 0-19-6-20-16z" fill="#ffffff55" stroke="#ffffffaa" stroke-width="3"/>
+  <!-- layers: milk, coffee -->
+  <path d="M138 130h124l-10 117c-1 8-8 13-16 13h-72c-8 0-15-5-16-13z" fill="#8a5a3b"/>
+  <path d="M138 130h124l-3 38c-30 10-88 10-118 0z" fill="#5b3524"/>
+  <path d="M135 90h130l-3 40H138z" fill="#4a2a1a"/>
+  <path d="M134 60h132l-3 30H137z" fill="#efe1cc"/>
+  <!-- ice -->
+  <g fill="#ffffff88" stroke="#fff" stroke-width="2"><rect x="150" y="70" width="38" height="34" rx="6" transform="rotate(-12 169 87)"/><rect x="200" y="78" width="40" height="36" rx="6" transform="rotate(10 220 96)"/><rect x="170" y="150" width="34" height="30" rx="6" transform="rotate(8 187 165)"/></g>
+  <!-- straw -->
+  <rect x="226" y="10" width="10" height="170" rx="4" fill="#d64545" transform="rotate(8 231 95)"/>
+  <!-- coffee beans -->
+  <g fill="#3b2314"><ellipse cx="80" cy="240" rx="14" ry="9" transform="rotate(-30 80 240)"/><ellipse cx="320" cy="250" rx="14" ry="9" transform="rotate(25 320 250)"/><ellipse cx="300" cy="220" rx="14" ry="9" transform="rotate(-10 300 220)"/></g>
+  <g stroke="#ecdcc8" stroke-width="2" fill="none"><path d="M70 238l20 4M310 252l20-4M290 220l20 0"/></g>
+</svg>

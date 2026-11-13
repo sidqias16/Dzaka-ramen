@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Tori Katsu Curry">
+  <rect width="400" height="300" fill="#f4e4c1"/>
+  <ellipse cx="200" cy="262" rx="170" ry="16" fill="#00000020"/>
+  <ellipse cx="200" cy="165" rx="180" ry="100" fill="#fff"/>
+  <ellipse cx="200" cy="165" rx="164" ry="86" fill="#f3f0e8"/>
+  <!-- rice -->
+  <path d="M60 170c0-45 40-70 80-62 30 6 40 40 30 70-10 28-60 34-90 18-14-8-20-16-20-26z" fill="#fffdf6"/>
+  <g fill="#ece7d6"><circle cx="100" cy="150" r="3"/><circle cx="120" cy="140" r="3"/><circle cx="90" cy="170" r="3"/><circle cx="130" cy="165" r="3"/></g>
+  <!-- curry -->
+  <path d="M165 120c40-30 130-20 160 10 24 24 10 66-30 80-40 14-100 6-130-20-18-16-18-50 0-70z" fill="#a35a1c"/>
+  <path d="M175 128c36-22 110-14 138 10 16 14 6 44-24 54-36 12-84 4-108-16-14-12-14-34-6-48z" fill="#b8702a"/>
+  <!-- katsu slices -->
+  <g>
+    <rect x="180" y="110" width="40" height="86" rx="8" fill="#d89a3a" transform="rotate(-8 200 150)"/>
+    <rect x="215" y="108" width="40" height="88" rx="8" fill="#e0a548" transform="rotate(-2 235 150)"/>
+    <rect x="250" y="110" width="40" height="86" rx="8" fill="#d89a3a" transform="rotate(5 270 150)"/>
+    <g fill="#fff3c4" opacity=".8"><rect x="190" y="130" width="20" height="10" rx="5"/><rect x="225" y="130" width="20" height="10" rx="5"/><rect x="260" y="132" width="20" height="10" rx="5"/></g>
+  </g>
+  <!-- garnish -->
+  <circle cx="320" cy="190" r="10" fill="#d64545"/><path d="M320 180c2-6 6-8 10-8" stroke="#4c9a3d" stroke-width="3" fill="none"/>
+  <circle cx="86" cy="190" r="6" fill="#c0392b"/><circle cx="98" cy="194" r="6" fill="#c0392b"/>
+</svg>

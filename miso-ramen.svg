@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Miso Ramen">
+  <rect width="400" height="300" fill="#f9e9d0"/>
+  <ellipse cx="200" cy="268" rx="150" ry="14" fill="#00000020"/>
+  <!-- bowl -->
+  <path d="M40 130h320c0 80-60 135-160 135S40 210 40 130z" fill="#b8312f"/>
+  <path d="M40 130h320c0 16-2 30-6 42H46c-4-12-6-26-6-42z" fill="#8e2423"/>
+  <rect x="150" y="262" width="100" height="10" rx="4" fill="#7a1e1d"/>
+  <ellipse cx="200" cy="130" rx="160" ry="38" fill="#d99a4e"/>
+  <ellipse cx="200" cy="130" rx="148" ry="31" fill="#e3ad63"/>
+  <!-- noodles -->
+  <g stroke="#f6dc8a" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M110 125c20-12 40 12 60 0s40 12 60 0 40 10 60-2"/>
+    <path d="M100 135c20 10 40-10 60 0s40-8 60 0 40-8 60 2"/>
+  </g>
+  <!-- toppings -->
+  <ellipse cx="150" cy="118" rx="34" ry="14" fill="#c97b5a"/><ellipse cx="150" cy="116" rx="28" ry="10" fill="#e19a7a"/>
+  <ellipse cx="215" cy="112" rx="28" ry="16" fill="#fff8ea"/><circle cx="215" cy="113" r="9" fill="#f5a623"/>
+  <g><circle cx="265" cy="125" r="18" fill="#fff"/><circle cx="265" cy="125" r="18" fill="none" stroke="#f4a6b6" stroke-width="4" stroke-dasharray="6 6"/><circle cx="265" cy="125" r="6" fill="#f4a6b6"/></g>
+  <rect x="290" y="90" width="12" height="52" rx="2" fill="#1d2b22" transform="rotate(14 296 116)"/>
+  <g fill="#fbd34d"><circle cx="180" cy="138" r="5"/><circle cx="192" cy="142" r="5"/><circle cx="168" cy="144" r="5"/></g>
+  <g fill="#4c9a3d"><rect x="236" y="138" width="12" height="4" rx="2" transform="rotate(20 242 140)"/><rect x="122" y="132" width="12" height="4" rx="2"/><rect x="252" y="144" width="12" height="4" rx="2" transform="rotate(-20 258 146)"/></g>
+  <!-- steam -->
+  <g stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity=".8">
+    <path d="M150 80c-12-12 12-20 0-34"/><path d="M200 78c-12-12 12-20 0-34"/><path d="M250 80c-12-12 12-20 0-34"/>
+  </g>
+  <!-- chopsticks -->
+  <g transform="rotate(-18 330 60)"><rect x="300" y="52" width="130" height="7" rx="3" fill="#8a5a2b"/><rect x="300" y="68" width="130" height="7" rx="3" fill="#a06c36"/></g>
+</svg>

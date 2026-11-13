@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="California Roll">
+  <rect width="400" height="300" fill="#e9efe2"/>
+  <ellipse cx="200" cy="262" rx="165" ry="16" fill="#00000018"/>
+  <rect x="30" y="80" width="340" height="170" rx="16" fill="#3b2f2a"/>
+  <rect x="38" y="88" width="324" height="154" rx="11" fill="#4a3c35"/>
+  <!-- inside-out rolls: rice outside with tobiko -->
+  <g>
+    <g transform="translate(95,150)"><circle r="38" fill="#f08a2c"/><circle r="32" fill="#fffdf7"/><circle r="22" fill="#1d2b22"/><circle r="17" fill="#fffdf7"/><circle cx="-6" cy="-4" r="6" fill="#f47c8a"/><circle cx="6" cy="4" r="6" fill="#8bc34a"/><circle cx="4" cy="-8" r="4" fill="#f9d56e"/></g>
+    <g transform="translate(185,140)"><circle r="38" fill="#f08a2c"/><circle r="32" fill="#fffdf7"/><circle r="22" fill="#1d2b22"/><circle r="17" fill="#fffdf7"/><circle cx="-6" cy="-4" r="6" fill="#f47c8a"/><circle cx="6" cy="4" r="6" fill="#8bc34a"/><circle cx="4" cy="-8" r="4" fill="#f9d56e"/></g>
+    <g transform="translate(275,150)"><circle r="38" fill="#f08a2c"/><circle r="32" fill="#fffdf7"/><circle r="22" fill="#1d2b22"/><circle r="17" fill="#fffdf7"/><circle cx="-6" cy="-4" r="6" fill="#f47c8a"/><circle cx="6" cy="4" r="6" fill="#8bc34a"/><circle cx="4" cy="-8" r="4" fill="#f9d56e"/></g>
+    <g transform="translate(140,215)"><circle r="34" fill="#f08a2c"/><circle r="28" fill="#fffdf7"/><circle r="19" fill="#1d2b22"/><circle r="14" fill="#fffdf7"/><circle cx="-5" cy="-3" r="5" fill="#f47c8a"/><circle cx="5" cy="4" r="5" fill="#8bc34a"/></g>
+    <g transform="translate(230,215)"><circle r="34" fill="#f08a2c"/><circle r="28" fill="#fffdf7"/><circle r="19" fill="#1d2b22"/><circle r="14" fill="#fffdf7"/><circle cx="-5" cy="-3" r="5" fill="#f47c8a"/><circle cx="5" cy="4" r="5" fill="#8bc34a"/></g>
+  </g>
+  <ellipse cx="330" cy="212" rx="16" ry="9" fill="#8bc34a"/>
+  <path d="M52 220c10-14 28-14 38-2-6 12-30 16-38 2z" fill="#f4a6b6"/>
+</svg>

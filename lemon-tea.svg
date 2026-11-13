@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Lemon Tea">
+  <rect width="400" height="300" fill="#f6efc9"/>
+  <ellipse cx="200" cy="268" rx="90" ry="12" fill="#00000020"/>
+  <!-- glass -->
+  <path d="M130 40h140l-14 215c-1 10-10 16-20 16h-72c-10 0-19-6-20-16z" fill="#ffffff55" stroke="#ffffffcc" stroke-width="3"/>
+  <path d="M137 80h126l-11 167c-1 8-8 13-16 13h-72c-8 0-15-5-16-13z" fill="#d9822b"/>
+  <path d="M137 80h126l-2 30c-30 8-92 8-122 0z" fill="#e89a3e"/>
+  <!-- ice -->
+  <g fill="#ffffff80" stroke="#fff" stroke-width="2"><rect x="150" y="120" width="38" height="34" rx="6" transform="rotate(-10 169 137)"/><rect x="208" y="150" width="36" height="34" rx="6" transform="rotate(12 226 167)"/><rect x="165" y="200" width="36" height="32" rx="6" transform="rotate(5 183 216)"/></g>
+  <!-- lemon slice on rim -->
+  <g transform="translate(265,62)">
+    <circle r="36" fill="#fde047"/><circle r="30" fill="#fef9c3"/>
+    <g fill="#facc15"><path d="M0 0L0-28A28 28 0 0 1 24-14z"/><path d="M0 0L24-14A28 28 0 0 1 24 14z"/><path d="M0 0L24 14A28 28 0 0 1 0 28z"/><path d="M0 0L0 28A28 28 0 0 1-24 14z"/><path d="M0 0L-24 14A28 28 0 0 1-24-14z"/><path d="M0 0L-24-14A28 28 0 0 1 0-28z"/></g>
+    <circle r="4" fill="#fef9c3"/>
+  </g>
+  <!-- mint -->
+  <g fill="#4c9a3d"><ellipse cx="165" cy="70" rx="16" ry="8" transform="rotate(-30 165 70)"/><ellipse cx="185" cy="60" rx="16" ry="8" transform="rotate(20 185 60)"/></g>
+  <rect x="210" y="14" width="10" height="170" rx="4" fill="#1f9d8b" transform="rotate(-6 215 100)"/>
+  <!-- whole lemon -->
+  <ellipse cx="72" cy="236" rx="30" ry="22" fill="#fde047"/><path d="M42 236c-6 0-10-3-12-6" stroke="#facc15" stroke-width="3" fill="none"/>
+  <path d="M72 214c0-6 6-10 12-8" stroke="#4c9a3d" stroke-width="4" fill="none"/>
+</svg>
